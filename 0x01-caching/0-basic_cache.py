@@ -3,6 +3,7 @@
 
 from base_caching import BaseCaching
 
+
 class BasicCache(BaseCaching):
     """Defines a basic caching system"""
 
