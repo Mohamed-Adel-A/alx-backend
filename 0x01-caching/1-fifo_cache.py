@@ -3,6 +3,7 @@
 
 from base_caching import BaseCaching
 
+
 class FIFOCache(BaseCaching):
     """Defines a caching system with FIFO eviction policy"""
 
