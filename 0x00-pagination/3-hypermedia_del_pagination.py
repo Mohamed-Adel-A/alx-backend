@@ -43,21 +43,21 @@ class Server:
         """Return hypermedia pagination information based on index."""
         assert index is None or (isinstance(index, int) and index >= 0)
         assert isinstance(page_size, int) and page_size > 0
-        
+
         dataset = self.indexed_dataset()
         max_index = len(dataset) - 1
-        
+
         if index is not None:
             start_index = index
         else:
             start_index = 0
-        
+
         end_index = min(start_index + page_size, max_index + 1)
-        
+
         data = [dataset[i] for i in range(start_index, end_index)]
-        
+
         next_index = end_index if end_index < max_index else None
-        
+
         return {
             'index': start_index,
             'next_index': next_index,
