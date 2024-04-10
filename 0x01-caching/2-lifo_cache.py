@@ -3,6 +3,7 @@
 
 from base_caching import BaseCaching
 
+
 class LIFOCache(BaseCaching):
     """Defines a caching system with LIFO eviction policy"""
 
