@@ -7,6 +7,12 @@ import csv
 import math
 from typing import List, Tuple
 
+def index_range(page: int, page_size: int) -> Tuple[int, int]:
+    """Return a tuple of start and end indexes."""
+    start_index = (page - 1) * page_size
+    end_index = page * page_size
+    return start_index, end_index
+
 
 class Server:
     """Server class to paginate a database of popular baby names.
@@ -34,8 +40,3 @@ class Server:
         [start, end] = index_range(page, page_size)
         return self.dataset()[start: end]
 
-    def index_range(page: int, page_size: int) -> Tuple[int, int]:
-        """Return a tuple of start and end indexes."""
-        start_index = (page - 1) * page_size
-        end_index = page * page_size
-        return start_index, end_index
