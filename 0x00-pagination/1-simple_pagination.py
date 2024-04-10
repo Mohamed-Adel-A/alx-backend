@@ -29,14 +29,16 @@ class Server:
 
     def get_page(self, page: int = 1, page_size: int = 10) -> List[List]:
         """Return the appropriate page of the dataset."""
-        assert isinstance(page, int) and page > 0, "AssertionError raised with negative values"
-        assert isinstance(page_size, int) and page_size > 0, "AssertionError raised with 0"
+        assert type(page) is int and page > 0
+        assert type(page_size) is int and page_size > 0
 
-        start_index, end_index = index_range(page, page_size)
         dataset = self.dataset()
-        if end_index > len(dataset):
+        data_length = len(dataset)
+        try:
+            index = index_range(page, page_size)
+            return dataset[index[0]:index[1]]
+        except IndexError:
             return []
-        return dataset[start_index:end_index]
 
     def index_range(page: int, page_size: int) -> Tuple[int, int]:
         """Return a tuple of start and end indexes."""
