@@ -175,44 +175,7 @@ guillaume@ubuntu:~/0x01$
 
 Done?! Check your code
 
-×
-
-#### Correction of "0. Basic dictionary"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Ask for a new correction : in progress... : an error occurred Get a sandbox QA Review
-
-×
-
-#### 0\. Basic dictionary
-
-##### Commit used:
-
--   **User:** \---
--   **URL:** Click here
--   **ID:** `---`
--   **Author:** \---
--   **Subject:** _\---_
--   **Date:** \---
+---
 
 ### 1\. FIFO caching
 
@@ -287,44 +250,7 @@ guillaume@ubuntu:~/0x01$
 
 Done?! Check your code
 
-×
-
-#### Correction of "1. FIFO caching"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Ask for a new correction : in progress... : an error occurred Get a sandbox QA Review
-
-×
-
-#### 1\. FIFO caching
-
-##### Commit used:
-
--   **User:** \---
--   **URL:** Click here
--   **ID:** `---`
--   **Author:** \---
--   **Subject:** _\---_
--   **Date:** \---
+---
 
 ### 2\. LIFO Caching
 
@@ -407,44 +333,7 @@ guillaume@ubuntu:~/0x01$
 
 Done?! Check your code
 
-×
-
-#### Correction of "2. LIFO Caching"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Ask for a new correction : in progress... : an error occurred Get a sandbox QA Review
-
-×
-
-#### 2\. LIFO Caching
-
-##### Commit used:
-
--   **User:** \---
--   **URL:** Click here
--   **ID:** `---`
--   **Author:** \---
--   **Subject:** _\---_
--   **Date:** \---
+---
 
 ### 3\. LRU Caching
 
@@ -567,44 +456,7 @@ guillaume@ubuntu:~/0x01$
 
 Done?! Check your code
 
-×
-
-#### Correction of "3. LRU Caching"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Ask for a new correction : in progress... : an error occurred Get a sandbox QA Review
-
-×
-
-#### 3\. LRU Caching
-
-##### Commit used:
-
--   **User:** \---
--   **URL:** Click here
--   **ID:** `---`
--   **Author:** \---
--   **Subject:** _\---_
--   **Date:** \---
+---
 
 ### 4\. MRU Caching
 
@@ -727,44 +579,7 @@ guillaume@ubuntu:~/0x01$
 
 Done?! Check your code
 
-×
-
-#### Correction of "4. MRU Caching"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Ask for a new correction : in progress... : an error occurred Get a sandbox QA Review
-
-×
-
-#### 4\. MRU Caching
-
-##### Commit used:
-
--   **User:** \---
--   **URL:** Click here
--   **ID:** `---`
--   **Author:** \---
--   **Subject:** _\---_
--   **Date:** \---
+---
 
 ### 5\. LFU Caching
 
