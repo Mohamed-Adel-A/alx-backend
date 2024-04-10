@@ -96,33 +96,6 @@ Use that class as config for your Flask app.
 
 Done?! Check your code
 
-×
-
-#### Correction of "1. Basic Babel setup"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Ask for a new correction : in progress... : an error occurred Get a sandbox QA Review
-
-×
 ---
 
 ### 2\. Get locale from request
