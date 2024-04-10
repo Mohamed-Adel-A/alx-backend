@@ -135,7 +135,7 @@ class Server:
 
 Implement a method named `get_page` that takes two integer arguments `page` with default value 1 and `page_size` with default value 10.
 
--   You have to use this [CSV file](https://intranet.alxswe.com/rltoken/NBLY6mdKDBR9zWvNADwjjg "CSV file") (same as the one presented at the top of the project)
+-   You have to use this [CSV file](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/misc/2020/5/7d3576d97e7560ae85135cc214ffe2b3412c51d7.csv?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20240410%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240410T154044Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=d19f1018c4764c5cc40659194b4159623d2c2b2673fb39760d1a1077c504b5b7 "CSV file") (same as the one presented at the top of the project)
 -   Use `assert` to verify that both arguments are integers greater than 0.
 -   Use `index_range` to find the correct indexes to paginate the dataset correctly and return the appropriate page of the dataset (i.e. the correct list of rows).
 -   If the input arguments are out of range for the dataset, an empty list should be returned.
