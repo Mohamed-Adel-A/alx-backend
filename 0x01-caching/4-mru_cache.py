@@ -3,6 +3,7 @@
 
 from base_caching import BaseCaching
 
+
 class MRUCache(BaseCaching):
     """Defines a caching system with MRU eviction policy"""
 
