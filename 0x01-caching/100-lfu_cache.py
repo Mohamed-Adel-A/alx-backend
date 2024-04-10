@@ -3,6 +3,7 @@
 
 from base_caching import BaseCaching
 
+
 class LFUCache(BaseCaching):
     """Defines a caching system with LFU eviction policy"""
 
