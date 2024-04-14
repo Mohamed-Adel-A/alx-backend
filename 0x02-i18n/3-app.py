@@ -2,7 +2,7 @@
 """Parametrize templates"""
 
 from flask import Flask, render_template, request
-from flask_babel import Babel, _
+from flask_babel import Babel
 import os
 
 app = Flask(__name__)
@@ -21,7 +21,10 @@ app.config.from_object(Config)
 
 @babel.localeselector
 def get_locale():
-    """Determine the best match for the supported languages based on the request's accepted languages."""
+    """
+    Determine the best match for the supported languages
+    based on the request's accepted languages.
+    """
     return request.accept_languages.best_match(app.config['LANGUAGES'])
 
 
